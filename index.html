@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock-papper-scissorse</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://rps-bandeiraos.surge.sh https://cdn-icons-png.flaticon.com; style-src 'self'; script-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <title>Rock-paper-scissorse</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -27,7 +31,7 @@
               src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png"
               alt="user"
             />
-            <div id="user-choice">papper</div>
+            <div id="user-choice">paper</div>
           </div>
 
           <div class="second-heading">
@@ -44,7 +48,7 @@
         </div>
         <div class="btn">
           <button type="button" id="rock">Rock</button>
-          <button type="button" id="papper">Papper</button>
+          <button type="button" id="papper">Paper</button>
           <button type="button" id="scissor">Scissor</button>
         </div>
       </div>
