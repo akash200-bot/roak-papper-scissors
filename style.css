@@ -188,17 +188,17 @@
         background-color: #fff;
         border-radius: 5px;
         padding: 17px;
-        box-sizing: border-box;
         margin: 10px;
         color: #000;
+        box-sizing: border-box;
       }
       .score-bar div {
         display: flex;
         flex-direction: column;
         align-items: center;
-        box-sizing: border-box;
         align-items: center;
         font-family: Barlow Semi Condensed, sans-serif;
+        box-sizing: border-box;
       }
       .score-bar div span:nth-child(1) {
         font-size: 1.3rem;
@@ -207,7 +207,7 @@
         font-weight: 00;
       }
       .score-bar div span:nth-child(2) {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 600;
       }
       .restart {
@@ -234,10 +234,6 @@
 
       @media screen and (max-width: 500px) {
         #rock {
-          top: 150px;
+          top: 90px;
         }
-        #papper {
-          margin-right: 0px;
-        }
-       
       }
