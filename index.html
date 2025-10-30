@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-papper-scissorse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="content">
+        <div class="header">
+          <div class="logo">
+            <img src="https://rps-bandeiraos.surge.sh/images/logo.svg" alt="" />
+          </div>
+          <div class="score-bar">
+            <div>
+              <span>Score</span>
+              <span class="score"></span>
+            </div>
+          </div>
+        </div>
+        <div class="game hidden">
+          <div class="imgfix">
+            User
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/1077/1077114.png"
+              alt="user"
+            />
+            <div id="user-choice">papper</div>
+          </div>
+
+          <div class="second-heading">
+            <h1 id="result-heading"><span id="result">Result</span></h1>
+          </div>
+          <div class="imgfix">
+            Computer
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/9635/9635940.png"
+              alt=""
+            />
+            <span id="Computer-choice"></span>
+          </div>
+        </div>
+        <div class="btn">
+          <button type="button" id="rock">Rock</button>
+          <button type="button" id="papper">Papper</button>
+          <button type="button" id="scissor">Scissor</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
